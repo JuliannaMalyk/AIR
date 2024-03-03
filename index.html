@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AIR</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240303185542">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/logo/logo-header.svg" alt="logo">
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".hero" href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a data-goto=".booking" href="#" class="menu__link">Booking</a></li>
+							<li class="menu__item"><a data-goto=".purposes" href="#" class="menu__link">Private Jet</a></li>
+							<li class="menu__item"><a data-goto=".specifications" href="#" class="menu__link">Specification</a></li>
+							<li class="menu__item"><a data-goto=".charters" href="#" class="menu__link">Luxury Charters</a></li>
+							<li class="menu__item"><a data-goto=".membership" href="#" class="menu__link">Membership</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" class="header__action action-header">
+					<button class="action-header__button button">Register</button>
+					<button class="action-header__button button--violet">Sign In</button>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Enjoy <span>Reserved</span>
+							Overhead bin space</h1>
+						<div class="hero__link"><a href="#">Explore Now</a></div>
+					</div>
+					<div class="hero__image">
+					</div>
+				</div>
+				<picture><source srcset="img/hero/01.webp" type="image/webp"><img class="hero__bg" src="img/hero/01.jpg" alt="Image"></picture>
+			</section>
+			<div class="booking">
+				<div class="booking__container">
+					<div class="booking__menu">
+						<ul class="booking__list">
+							<li class="booking__link"><a href="#">Round Trip</a></li>
+							<li class="booking__link"><a href="#">Flight Type</a></li>
+							<li class="booking__link"><a href="#">Person</a></li>
+						</ul>
+					</div>
+					<div class="booking__body body-booking">
+						<div class="body-booking__items flight">
+							<div class="flight__item item-flight">
+								<div class="item-flight__hint hint">From</div>
+								<input type="text" class="item-flight__airport airport" autocomplete="off" placeholder="LAX"></input>
+								<div class="item-flight__city hint">Los Angeles Intl Arpt,Los Angeles</div>
+							</div>
+							<button class="flight-image">
+								<img src="img/icons/double-arrows.svg" alt="icon">
+							</button>
+							<div class="flight__item item-flight">
+								<div class="item-flight__hint hint">To</div>
+								<input type="text" class="item-flight__airport airport" autocomplete="off" placeholder="MIA"></input>
+								<div class="item-flight__city hint">Miami Intl,Miami</div>
+							</div>
+						</div>
+						<div class="body-booking__items calendar">
+							<div class="calendar__item">
+								<div class="calendar__hint hint">Departure</div>
+								<div class="calendar__date date"><a href="#">Fri 15 Oct</a></div>
+								<div class="calendar__buttons">
+									<button class="calendar__button">Prev</button>
+									<button class="calendar__button">Next</button>
+								</div>
+							</div>
+							<div class="calendar__item">
+								<div class="calendar__hint hint">Return</div>
+								<div class="calendar__date date"><a href="#">Fri 15 Oct</a></div>
+								<div class="calendar__buttons">
+									<button class="calendar__button">Prev</button>
+									<button class="calendar__button">Next</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="booking__action">Add Requirements</button>
+					<div class="booking__btn">
+						<button class="booking__button button button--violet"><span>Book Flights</span></button>
+					</div>
+				</div>
+			</div>
+			<section class="purposes">
+				<div class="purposes__container">
+					<div class="purposes__header">
+						<h3 class="purposes__title title">Private Jet for Business & Leisure Purposes</h3>
+					</div>
+					<div class="purposes__items">
+						<article class="purposes__item item-purposes">
+							<div class="item-purposes__body">
+								<h4 class="item-purposes__title title--min">Private Jet Charter</h4>
+								<div class="item-purposes__text text">
+									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</p>
+								</div>
+							</div>
+							<div class="item-purposes__image">
+								<picture><source srcset="img/purposes/01.webp" type="image/webp"><img src="img/purposes/01.jpg" alt="Image"></picture>
+							</div>
+						</article>
+						<article class="purposes__item item-purposes">
+							<div class="item-purposes__body">
+								<h4 class="item-purposes__title title--min">Business Jet Charter</h4>
+								<div class="item-purposes__text text">
+									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</p>
+								</div>
+							</div>
+							<div class="item-purposes__image">
+								<picture><source srcset="img/purposes/02.webp" type="image/webp"><img src="img/purposes/02.jpg" alt="Image"></picture>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="specifications">
+				<div class="specifications__container">
+					<div class="specifications__header">
+						<h3 class="specifications__title title">Private Jet Performance and Specifications</h3>
+					</div>
+					<div class="specifications__body">
+						<div class="specifications-items">
+							<article class="specifications-item item-specifications">
+								<div class="item-specifications__icon">
+									<img src="img/specifications/01.svg" alt="Image">
+								</div>
+								<h4 class="item-specifications__title">Luxury And Comfort</h4>
+								<div class="item-specifications__text text">It is a long established fact that a reader will be distracted by the readable</div>
+							</article>
+							<article class="specifications-item item-specifications">
+								<div class="item-specifications__icon">
+									<img src="img/specifications/02.svg" alt="Image">
+								</div>
+								<h4 class="item-specifications__title">Personal schedule & booking</h4>
+								<div class="item-specifications__text text">It is a long established fact that a reader will be distracted by the readable</div>
+							</article>
+						</div>
+						<div class="specifications-items items-specifications-image">
+							<picture><source srcset="img/specifications/plane.webp" type="image/webp"><img src="img/specifications/plane.jpg" alt="Image"></picture>
+						</div>
+						<div class="specifications-items">
+							<article class="specifications-item item-specifications">
+								<div class="item-specifications__icon">
+									<img src="img/specifications/03.svg" alt="Image">
+								</div>
+								<h4 class="item-specifications__title">SAFETY AND SECURITY</h4>
+								<div class="item-specifications__text text">It is a long established fact that a reader will be distracted by the readable</div>
+							</article>
+							<article class="specifications-item item-specifications">
+								<div class="item-specifications__icon">
+									<img src="img/specifications/04.svg" alt="Image">
+								</div>
+								<h4 class="item-specifications__title">EXPERIENCED CREW</h4>
+								<div class="item-specifications__text text">It is a long established fact that a reader will be distracted by the readable</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="charters">
+				<div class="charters__container">
+					<div class="charters__header">
+						<h3 class="charters__title title">Private Jet Performance and Specifications</h3>
+					</div>
+					<div class="charters__items">
+						<article class="charters__item item-charters">
+							<div class="item-charters__image">
+								<picture><source srcset="img/charters/01.webp" type="image/webp"><img src="img/charters/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-charters__label">Piaggio P.180 Avanti</div>
+						</article>
+						<article class="charters__item item-charters">
+							<div class="item-charters__image">
+								<picture><source srcset="img/charters/02.webp" type="image/webp"><img src="img/charters/02.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-charters__label">Pilatus PC-12</div>
+						</article>
+						<article class="charters__item item-charters">
+							<div class="item-charters__image">
+								<picture><source srcset="img/charters/03.webp" type="image/webp"><img src="img/charters/03.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-charters__label">piper pa27 aztec</div>
+						</article>
+						<article class="charters__item item-charters">
+							<div class="item-charters__image">
+								<picture><source srcset="img/charters/04.webp" type="image/webp"><img src="img/charters/04.jpg" alt="Image"></picture>
+							</div>
+							<div class="item-charters__label">Beech BE100 King Air</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="membership">
+				<div class="membership__container">
+					<div class="membership__header">
+						<h3 class="membership__title title">Private Jet Performance and Specifications</h3>
+					</div>
+					<div class="membership__items">
+						<div class="membership__item">
+							<h4 class="membership__sub-title">Business</h4>
+							<div class="membership__label">What You'll Get</div>
+							<ul class="membership__list">
+								<li class="membership__subitem">One-time initiation fee $0</li>
+								<li class="membership__subitem">Deposit $50k</li>
+								<li class="membership__subitem">Pricing / rates Dynamic</li>
+								<li class="membership__subitem">Priority fleet access Yes</li>
+								<li class="membership__subitem">Guaranteed fleet access No</li>
+							</ul>
+							<div class="membership__price">$480<span>/month</span></div>
+							<div class="membership__button">
+								<button type="button" class="membership__btn button button--violet">Choose</button>
+							</div>
+						</div>
+						<div class="membership__item">
+							<h4 class="membership__sub-title">Business</h4>
+							<div class="membership__label">What You'll Get</div>
+							<ul class="membership__list">
+								<li class="membership__subitem">One-time initiation fee $0</li>
+								<li class="membership__subitem">Deposit $50k</li>
+								<li class="membership__subitem">Pricing / rates Dynamic</li>
+								<li class="membership__subitem">Priority fleet access Yes</li>
+								<li class="membership__subitem">Guaranteed fleet access No</li>
+							</ul>
+							<div class="membership__price">$480<span>/month</span></div>
+							<div class="membership__button">
+								<button type="button" class="membership__btn button button--violet">Choose</button>
+							</div>
+						</div>
+						<div class="membership__item">
+							<h4 class="membership__sub-title">Business</h4>
+							<div class="membership__label">What You'll Get</div>
+							<ul class="membership__list">
+								<li class="membership__subitem">One-time initiation fee $0</li>
+								<li class="membership__subitem">Deposit $50k</li>
+								<li class="membership__subitem">Pricing / rates Dynamic</li>
+								<li class="membership__subitem">Priority fleet access Yes</li>
+								<li class="membership__subitem">Guaranteed fleet access No</li>
+							</ul>
+							<div class="membership__price">$480<span>/month</span></div>
+							<div class="membership__button">
+								<button type="button" class="membership__btn button button--violet">Choose</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="airplane">
+				<picture><source srcset="img/airplane/01.webp" type="image/webp"><img src="img/airplane/01.jpg" alt="Image"></picture>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<img src="img/logo/logo-footer.svg" alt="Image">
+				</div>
+				<div class="footer__body">
+					<ul class="footer__menu menu-footer">
+						<li class="menu-footer__link"><a href="#">SERVICES</a></li>
+						<li class="menu-footer__link"><a href="#">ABOUT US</a></li>
+						<li class="menu-footer__link"><a href="#">NEWS</a></li>
+						<li class="menu-footer__link"><a href="#">CONTACT</a></li>
+					</ul>
+					<div class="footer__copyright">
+						<p>© 2021 Air. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240303185542"></script>
+</body>
+
+</html>
